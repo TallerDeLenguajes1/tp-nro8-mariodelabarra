@@ -1,0 +1,7 @@
+C:\Users\mario\Documents\Facultad\Taller de Programacion I\Taller\tp-nro8-mariodelabarra\TP8_delaBarra\TP8\bin\Debug\TP8.exe.config
+C:\Users\mario\Documents\Facultad\Taller de Programacion I\Taller\tp-nro8-mariodelabarra\TP8_delaBarra\TP8\bin\Debug\TP8.exe
+C:\Users\mario\Documents\Facultad\Taller de Programacion I\Taller\tp-nro8-mariodelabarra\TP8_delaBarra\TP8\bin\Debug\TP8.pdb
+C:\Users\mario\Documents\Facultad\Taller de Programacion I\Taller\tp-nro8-mariodelabarra\TP8_delaBarra\TP8\obj\Debug\TP8.csprojAssemblyReference.cache
+C:\Users\mario\Documents\Facultad\Taller de Programacion I\Taller\tp-nro8-mariodelabarra\TP8_delaBarra\TP8\obj\Debug\TP8.csproj.CoreCompileInputs.cache
+C:\Users\mario\Documents\Facultad\Taller de Programacion I\Taller\tp-nro8-mariodelabarra\TP8_delaBarra\TP8\obj\Debug\TP8.exe
+C:\Users\mario\Documents\Facultad\Taller de Programacion I\Taller\tp-nro8-mariodelabarra\TP8_delaBarra\TP8\obj\Debug\TP8.pdb

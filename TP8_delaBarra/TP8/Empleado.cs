@@ -4,19 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TP08
+namespace TP8
 {
-
-    class Empleado
+    public enum Cargo { Auxiliar, Administrativo, Ingeniero, Especialista, Investigador };
+    public enum Genero { Masculino, Femenino };
+    public class Empleado
     {
         public string Nombre, Apellido;
         public Genero genero;
         public Cargo cargo;
-        public EstadoCivil estadoCivil;
-        public int sueldo, cantHijos;
+        public int estadoCivil, sueldo, cantHijos;
         public DateTime fechaIngreso, fechaNac;
 
-        public Empleado(string _Nombre, string _Apellido, DateTime _fechaNac, EstadoCivil _estadoCivil, int _cantHijos, Genero _genero, int _sueldo, Cargo _cargo, DateTime _fechaIngreso)
+        public Empleado(string _Nombre, string _Apellido, DateTime _fechaNac, int _estadoCivil, int _cantHijos, Genero _genero, int _sueldo, Cargo _cargo, DateTime _fechaIngreso)
         {
             Nombre = _Nombre;
             Apellido = _Apellido;
@@ -36,7 +36,7 @@ namespace TP08
         {
             DateTime fechaActual = DateTime.Now;
             int edad = 0;
-            if (empleado.fechaNac.Month < fechaActual.Month)
+            if (empleado.fechaNac.Month <= fechaActual.Month)
             {
                 edad = fechaActual.Year - empleado.fechaNac.Year;
             }
@@ -103,7 +103,7 @@ namespace TP08
             {
                 Adicional = Adicional + (Adicional * 0.50);
             }
-            if (empleado.estadoCivil == EstadoCivil.Casadx && empleado.cantHijos > 2) Adicional = Adicional + 5000;
+            if (empleado.estadoCivil == 1 && empleado.cantHijos > 2) Adicional = Adicional + 5000;
 
             Salario = empleado.sueldo + Adicional;
 
@@ -114,7 +114,7 @@ namespace TP08
         {
             Console.WriteLine("Nombre y apellido: {0} {1}", empleado.Nombre, empleado.Apellido);
             Console.WriteLine("Fecha de nacimiento: {0}", empleado.fechaNac.ToShortDateString());
-            Console.WriteLine("Estado Civil: {0}", empleado.estadoCivil);
+            if (empleado.estadoCivil == 1) Console.WriteLine("Estado Civil: Casado"); else Console.WriteLine("Estado Civil: Soltero");
             Console.WriteLine("Genero: {0}", empleado.genero);
             Console.WriteLine("Sueldo: {0}", empleado.sueldo);
             Console.WriteLine("Cargo: {0}", empleado.cargo);
@@ -123,19 +123,11 @@ namespace TP08
         public static void busquedaEmpleado(List<Empleado> empleadoLista, string[] delimitador)
         {
             int indice = empleadoLista.FindIndex(x => x.Nombre.Contains(delimitador[0]) && x.Apellido.Contains(delimitador[1]));
-            try
-            {
-                Empleado.mostrarEmpleado(empleadoLista[indice]);
-                Console.WriteLine("\nEmpleado n. {0}\n", indice + 1);
-                Console.WriteLine("La edad del empleado es de: {0}", edadEmpleado(empleadoLista[indice]));
-                Console.WriteLine("El empleado tiene {0} años de antiguedad.", Empleado.antiguedad(empleadoLista[indice]));
-                Console.WriteLine("Al empleado le faltan {0} años para jubilarse.\n", calculoJubilacion(empleadoLista[indice]));
-
-            }catch(ArgumentOutOfRangeException)
-            {
-                Console.WriteLine("El empleado {0}, {1} no existe en la base de datos.", delimitador[0], delimitador[1]);
-            }
-            
+            Console.WriteLine("\nEmpleado n. {0}\n", indice + 1);
+            Empleado.mostrarEmpleado(empleadoLista[indice]);
+            Console.WriteLine("La edad del empleado es de: {0}", edadEmpleado(empleadoLista[indice]));
+            Console.WriteLine("El empleado tiene {0} años de antiguedad.", Empleado.antiguedad(empleadoLista[indice]));
+            Console.WriteLine("Al empleado le faltan {0} años para jubilarse.\n", calculoJubilacion(empleadoLista[indice]));
         }
     }
 }

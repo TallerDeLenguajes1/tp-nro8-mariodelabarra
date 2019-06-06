@@ -1,2 +1,4 @@
-Mario;Perez;28/04/1997;Soltero;Masculino;10000;3;Ingeniero;20/10/2010
-Pablo;Escobar;04/09/2000;Casado;Masculino;200000;5;Administrativo;01/05/2011
+Nombre;Apellido;Fecha de Nacimiento;EstadoCivil;Genero;Sueldo;Cantidad de hijos;Cargo;Fecha de Ingreso
+Esteban;Snow;01/07/76;Casadx;Masculino;24323;5;Administrativo;16/01/96
+Esteban;Quito;06/02/71;Casadx;Masculino;19959;4;Ingeniero;09/05/93
+Pablo;Taly;03/02/88;Solterx;Masculino;18838;2;Administrativo;13/09/94

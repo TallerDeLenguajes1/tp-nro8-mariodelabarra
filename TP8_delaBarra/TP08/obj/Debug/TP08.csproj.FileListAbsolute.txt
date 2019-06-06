@@ -4,3 +4,22 @@ C:\Users\Alumno.LABAPC14\Desktop\TP8_delaBarra\TP08\bin\Debug\TP08.pdb
 C:\Users\Alumno.LABAPC14\Desktop\TP8_delaBarra\TP08\obj\Debug\TP08.csprojResolveAssemblyReference.cache
 C:\Users\Alumno.LABAPC14\Desktop\TP8_delaBarra\TP08\obj\Debug\TP08.exe
 C:\Users\Alumno.LABAPC14\Desktop\TP8_delaBarra\TP08\obj\Debug\TP08.pdb
+C:\Users\mario\Documents\Facultad\Taller de Programacion I\Taller\tp-nro8-mariodelabarra\TP8_delaBarra\TP08\bin\Debug\TP08.exe.config
+C:\Users\mario\Documents\Facultad\Taller de Programacion I\Taller\tp-nro8-mariodelabarra\TP8_delaBarra\TP08\bin\Debug\TP08.exe
+C:\Users\mario\Documents\Facultad\Taller de Programacion I\Taller\tp-nro8-mariodelabarra\TP8_delaBarra\TP08\bin\Debug\TP08.pdb
+C:\Users\mario\Documents\Facultad\Taller de Programacion I\Taller\tp-nro8-mariodelabarra\TP8_delaBarra\TP08\obj\Debug\TP08.csprojAssemblyReference.cache
+C:\Users\mario\Documents\Facultad\Taller de Programacion I\Taller\tp-nro8-mariodelabarra\TP8_delaBarra\TP08\obj\Debug\TP08.csproj.CoreCompileInputs.cache
+C:\Users\mario\Documents\Facultad\Taller de Programacion I\Taller\tp-nro8-mariodelabarra\TP8_delaBarra\TP08\obj\Debug\TP08.exe
+C:\Users\mario\Documents\Facultad\Taller de Programacion I\Taller\tp-nro8-mariodelabarra\TP8_delaBarra\TP08\obj\Debug\TP08.pdb
+C:\Users\Alumno\Documents\Taller\tp-nro8-mariodelabarra\TP8_delaBarra\TP08\bin\Debug\TP08.exe.config
+C:\Users\Alumno\Documents\Taller\tp-nro8-mariodelabarra\TP8_delaBarra\TP08\obj\Debug\TP08.exe
+C:\Users\Alumno\Documents\Taller\tp-nro8-mariodelabarra\TP8_delaBarra\TP08\obj\Debug\TP08.pdb
+C:\Users\Alumno\Documents\Taller\tp-nro8-mariodelabarra\TP8_delaBarra\TP08\bin\Debug\TP08.exe
+C:\Users\Alumno\Documents\Taller\tp-nro8-mariodelabarra\TP8_delaBarra\TP08\bin\Debug\TP08.pdb
+C:\Users\Alumno\Documents\Taller\tp-nro8-mariodelabarra\TP8_delaBarra\TP08\obj\Debug\TP08.csprojResolveAssemblyReference.cache
+E:\Taller\tp-nro8-mariodelabarra\TP8_delaBarra\TP08\bin\Debug\TP08.exe.config
+E:\Taller\tp-nro8-mariodelabarra\TP8_delaBarra\TP08\obj\Debug\TP08.exe
+E:\Taller\tp-nro8-mariodelabarra\TP8_delaBarra\TP08\obj\Debug\TP08.pdb
+E:\Taller\tp-nro8-mariodelabarra\TP8_delaBarra\TP08\bin\Debug\TP08.exe
+E:\Taller\tp-nro8-mariodelabarra\TP8_delaBarra\TP08\bin\Debug\TP08.pdb
+E:\Taller\tp-nro8-mariodelabarra\TP8_delaBarra\TP08\obj\Debug\TP08.csprojResolveAssemblyReference.cache
